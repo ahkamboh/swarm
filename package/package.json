@@ -1,0 +1,24 @@
+{
+  "name": "sworm-agent",
+  "version": "1.0.0",
+  "description": "Transparent installer for the sworm device-management agent. Self-hosted: it needs your own worker url and bootstrap token.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "files": [
+    "postinstall.js",
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "sworm",
+    "device-management",
+    "agent",
+    "self-hosted"
+  ]
+}
