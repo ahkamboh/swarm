@@ -26,9 +26,9 @@
 
 ---
 
-sworm is a transparent, self-hostable remote device-management tool. You deploy one cloudflare worker, install a small node agent on the machines you manage, and drive the fleet from one CLI: list machines, browse their disks, push and pull files, run commands, delete paths, and run a scoped wipe when someone offboards.
+sworm is made for useful, positive, ethical purposes. The author is not responsible for unethical use.
 
-Most MDM tools are heavy, expensive, and closed. sworm is the opposite: one worker, one readable agent file, one CLI. Every line that runs on a managed machine is in this repo, and the agent is plain javascript you can read in minutes.
+sworm is a program: one cloudflare worker, one readable node agent file, one CLI. You deploy the worker, install the agent on devices you control, and drive them from the terminal: list, browse, push, pull, run commands, delete paths, and scoped wipe.
 
 ## Features
 

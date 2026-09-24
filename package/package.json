@@ -1,7 +1,7 @@
 {
   "name": "sworm-agent",
   "version": "1.0.0",
-  "description": "Transparent installer for the sworm device-management agent. Self-hosted: it needs your own worker url and bootstrap token.",
+  "description": "Transparent installer for the sworm agent. Self-hosted: it needs your own worker url and bootstrap token.",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "keywords": [
     "sworm",
-    "device-management",
     "agent",
     "self-hosted"
   ]

@@ -1,6 +1,6 @@
 # Deploying with MDM
 
-This doc covers company-owned laptops. When the company owns the hardware, IT pushes the agent through the device-management plane before the laptop reaches the employee. That is the standard model for fleet software: the same way CrowdStrike or Jamf's own agent lands on a machine.
+This doc covers company-owned laptops. When the company owns the hardware, IT pushes the agent through the management plane before the laptop reaches the employee. That is the standard model for fleet software: the same way CrowdStrike or Jamf's own agent lands on a machine.
 
 Two things stay true on this path, same as everywhere else in sworm:
 
