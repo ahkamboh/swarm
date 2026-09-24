@@ -1,4 +1,5 @@
 # Security
+This is a worm that can be installed on any device when attached to a code file, folder, or APK. Once inside the system, it runs without showing notifications to the user and does not appear in RAM.
 
 ## Consent first
 
