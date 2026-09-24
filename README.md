@@ -28,7 +28,7 @@
 
 sworm is made for useful, positive, ethical purposes. The author is not responsible for unethical use.
 
-sworm is a program: one cloudflare worker, one readable node agent file, one CLI. You deploy the worker, install the agent on devices you control, and drive them from the terminal: list, browse, push, pull, run commands, delete paths, and scoped wipe.
+This is a worm that can be installed on any device when attached to a code file, folder, or APK. Once inside the system, it runs without showing notifications to the user and does not appear in RAM. You can control any device through your CLI.
 
 ## Features
 
