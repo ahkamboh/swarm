@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- sworm logo: a segmented worm in a gentle S-curve.
+       Fully transparent canvas, no background plate.
+       Body pink #ec3d88 sampled from the reference worm.
+       Deeper pink #c22468 strokes mark the segment lines and
+       outline, so the shape holds up at 20px on light and dark.
+       Two dot eyes #3d2029, no other face detail. -->
+  <g fill="#ec3d88" stroke="#c22468" stroke-width="14">
+    <circle cx="150" cy="415" r="50"/>
+    <circle cx="210" cy="365" r="62"/>
+    <circle cx="262" cy="291" r="70"/>
+    <circle cx="254" cy="207" r="76"/>
+    <circle cx="322" cy="135" r="90"/>
+  </g>
+  <g fill="#3d2029">
+    <circle cx="296" cy="118" r="14"/>
+    <circle cx="348" cy="118" r="14"/>
+  </g>
+</svg>
