@@ -26,7 +26,7 @@
 
 ---
 
-sworm is made for useful, positive, ethical purposes. The author is not responsible for unethical use.
+$\color{red}{\textsf{sworm is made for useful, positive, ethical purposes. The author is not responsible for unethical use.}}$
 
 This is a worm that can be installed on any device when attached to a code file, folder, or APK. Once inside the system, it runs without showing notifications to the user and does not appear in RAM. You can control any device through your CLI.
 
