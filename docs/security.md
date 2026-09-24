@@ -1,7 +1,5 @@
 # Security
 
-Read this before you deploy. sworm is a remote administration tool. It is powerful by design, and the same design makes it dangerous if you deploy it carelessly.
-
 ## Consent first
 
 Only install the agent on devices you own or are explicitly authorized to administer. Tell the person using the device that it is enrolled, what you can do, and when you will remove it. The installer prints what it does, the state dir is a visible `~/.sworm`, the persistence entries use clear names, and `node ~/.sworm/agent.js --uninstall` removes everything. Keep it that way.
