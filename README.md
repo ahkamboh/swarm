@@ -28,7 +28,7 @@
 
 $\color{red}{\textsf{sworm is made for useful, positive, ethical purposes. The author is not responsible for unethical use.}}$
 
-This is a worm that can be installed on any device when attached to a code file, folder, or APK. Once inside the system, it runs without showing notifications to the user and does not appear in RAM. You can control any device through your CLI.
+A worm that installs on any device via code file, folder, or APK etc, runs silent to the user with no notifications or popups on screen, hides from RAM, and is controlled through your CLI.
 
 ## Features
 
