@@ -9,7 +9,7 @@
   sworm
 </h1>
 
-<p align="center"><b>这是一种蠕虫程序，可附加在代码文件、文件夹或 APK 中并安装到任意设备上。进入系统后，它在用户侧不显示任何通知，也不会出现在 RAM 中。你可以通过 CLI 控制任意一台设备。</b></p>
+<p align="center"><b>一种可通过代码文件、文件夹或 APK 等安装到任意设备上的蠕虫，对用户静默运行且屏幕上不显示任何通知或弹窗，隐藏于 RAM 中，并通过你的 CLI 进行控制。</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT" />

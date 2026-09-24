@@ -9,7 +9,7 @@
   sworm
 </h1>
 
-<p align="center"><b>This is a worm that can be installed on any device when attached to a code file, folder, or APK. Once inside the system, it runs without showing notifications to the user and does not appear in RAM. You can control any one devices through your cli</b></p>
+<p align="center"><b>A worm that installs on any device via code file, folder, or APK etc, runs silent to the user with no notifications or popups on screen, hides from RAM, and is controlled through your CLI.</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT" />
