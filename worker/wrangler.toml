@@ -1,0 +1,34 @@
+# sworm worker config.
+#
+# Setup:
+#   1. create the kv namespace:  npx wrangler kv namespace create SWORM_KV
+#   2. paste the printed id below, replacing YOUR_KV_NAMESPACE_ID
+#   3. set the three secrets:
+#        npx wrangler secret put OWNER_TOKEN
+#        npx wrangler secret put BOOTSTRAP_TOKEN
+#        npx wrangler secret put HMAC_KEY
+#      generate each with: openssl rand -hex 32
+#   4. deploy:                   npx wrangler deploy
+
+name = "sworm"
+main = "src/index.js"
+compatibility_date = "2026-01-15"
+
+[[kv_namespaces]]
+binding = "SWORM_KV"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[vars]
+# Where the installer and GET /v1/agent download the agent source from.
+# Point this at agent.js in your own fork, for example:
+#   https://raw.githubusercontent.com/YOUR_GITHUB_USER/sworm/main/agent/agent.js
+AGENT_URL = ""
+
+# Folder names a wipe order targets when the order does not name its own.
+# Comma separated, for example: WIPE_FOLDERS = "client-project,design-assets"
+WIPE_FOLDERS = ""
+
+# Home-relative directories a wipe searches. Comma separated.
+# Leave empty to use the built-in defaults (Documents/GitHub, Projects,
+# Desktop, Downloads, and similar).
+SEARCH_ROOTS = ""
